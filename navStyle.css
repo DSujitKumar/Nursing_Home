@@ -29,8 +29,9 @@ ul{
     border: 2px solid white;
 }
 section{
-    width: 650px;
+    width: 750px;
     height: 0px;
+    max-height: 300px;
     background-color: gainsboro;
     margin-left: 25%;
     box-shadow: 0px 0px 3px grey, 0px 0px 8px grey;
@@ -38,6 +39,28 @@ section{
     border-bottom-right-radius: 5px;
     z-index: 1;
     transition: all 0.6s;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
     overflow: hidden;
 
+}
+#navSec li{
+    list-style-type: none;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    margin: 5px;
+    width: 40%;
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(1);
+
+}
+#navSec li:hover{
+    border: 1px solid darkslategray;
+}
+#navSec li:active{
+    transform: scale(0.99);
+    border: 1px solid yellow;
 }
