@@ -10,13 +10,13 @@ function init() {
         function dealMouseB() {
 
             navSec.style="height:300px";
-            navSec.innerHTML="<ul> <li>Bhubaneswar</li><li>Kolkata</li><li>Hyderabad</li></ul>";
+            navSec.innerHTML="<ul> <li>Bhubaneswar</li><li>Kolkata</li><li>Hyderabad</li><li>Delhi</li><li>Mumbai</li></ul>";
 
         }
         function dealMouseS() {
             navSec.style="height:300px";
             navSec.innerHTML="<ul> <li>Orthopaedics & Joint Replacement</li><li>Blood Bank & Transfusion Medicine</li><li>Cardiac Sciences</li><li>Dentistry & Maxillo Facial Surgery</li>" +
-                "<li>Dermatology</li><li>Emergency & Critical Care</li><li>Ent & Head Neck Surgery</li><li>Radiology & Interventional Radiology</li><li>CGynaecology & Obstetrics</li></ul>";
+                "<li>Dermatology</li><li>Emergency & Critical Care</li><li>Ent & Head Neck Surgery</li><li>Radiology & Interventional Radiology</li><li>CGynaecology & Obstetrics</li><li>Urology & Nephrology</li></ul>";
         }
 
     document.querySelector("body").addEventListener("click",dealMouseBody);
