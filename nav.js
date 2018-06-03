@@ -16,7 +16,7 @@ function init() {
         function dealMouseS() {
             navSec.style="height:300px";
             navSec.innerHTML="<ul> <li>Orthopaedics & Joint Replacement</li><li>Blood Bank & Transfusion Medicine</li><li>Paediatrics & Neonatology</li><li>Dentistry & Maxillo Facial Surgery</li>" +
-                "<li>Dermatology</li><li>Emergency & Critical Care</li><li>Ent & Head Neck Surgery</li><li>Radiology & Interventional Radiology</li><li>Urology & Nephrology</li><li>Labratories</li></ul>";
+                "<li>Dermatology</li><li>Emergency & Critical Care</li><li>Ent & Head Neck Surgery</li><li>Radiology & Interventional Radiology</li><li>Urology & Nephrology</li><li>Laboratories</li></ul>";
         }
 
     document.querySelector("body").addEventListener("click",dealMouseBody);
