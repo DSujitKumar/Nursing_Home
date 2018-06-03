@@ -6,7 +6,7 @@ body{
 		width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-image: url(images/orthopedics.jpg);
+		
 		background-blend-mode: difference;
 		scroll-behavior: unset;
 		background-attachment: fixed;
@@ -29,7 +29,7 @@ body{
 		margin-bottom: 10px;
 	}
 	#box1{
-		height: 60vh;
+		height: auto;
 		width: 100%;
 		background-attachment: fixed;
 		color: black;
@@ -114,4 +114,8 @@ body{
 		margin-top: 20px;
 		margin-left: 42%;
 
+	}
+	button:hover{
+		cursor: pointer;
+		box-shadow: 4px 4px 4px;
 	}
