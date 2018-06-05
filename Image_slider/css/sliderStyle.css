@@ -1,6 +1,7 @@
 body,html{
   margin:0px;
   max-height: 400px;
+  overflow: hidden;
 }
 #slideControls{
   background: linear-gradient(135deg, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%);
