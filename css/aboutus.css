@@ -1,0 +1,12 @@
+#branches-div{
+	height: 300px;
+	width: 100%;
+}
+#branches-p{
+	font-size: 20px;
+	
+}
+#branches-i:hover{
+	box-shadow: 2px 0px 2px black;
+	cursor: pointer;
+}
