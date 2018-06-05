@@ -12,7 +12,7 @@ nav{
     margin-top: 0;
     margin-bottom: 0;
     position: sticky;
-    
+    top: -1px;
     }
 ul{
     margin-top: 0;
