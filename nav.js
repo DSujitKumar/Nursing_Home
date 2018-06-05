@@ -6,6 +6,9 @@ function init() {
         document.querySelector("#about").addEventListener("mouseover",dealMouseBody);
         document.querySelector("#departments").addEventListener("mouseover",dealMouseBody);
         document.querySelector("#contactUs").addEventListener("mouseover",dealMouseBody);
+        document.querySelector("#main-Container").addEventListener("mouseover",dealMouseBody);
+        
+        
         var navSec =  document.querySelector("#navSec");
         function dealMouseB() {
 
@@ -23,4 +26,5 @@ function init() {
         function dealMouseBody() {
             navSec.style="height:0px";
         }
+
 }
