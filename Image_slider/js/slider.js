@@ -63,7 +63,7 @@ function init(){
       i=0;
       uv=0;
     }
-        sliderImg.style="width:500px";
+        sliderImg.style="width:100%";
         setTimeout(function(){textContainer.style="height:100px";},1000);
         
       },2000);
@@ -122,7 +122,7 @@ function init(){
           console.log("object ID:"+i);
     }
     
-        sliderImg.style="width:500px";
+        sliderImg.style="width:100%";
         setTimeout(function(){textContainer.style="height:100px";},1000);
         
       },2000);
