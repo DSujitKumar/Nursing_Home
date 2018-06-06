@@ -1,8 +1,11 @@
 #contactMainContainer{
-	height: 700px;
+	height: auto;
 	width: 100%;
+	
 	background-repeat: no-repeat;
+	background: fixed;
 	background-size: cover;
+	
 }
 #contactMainContainer-1{
 	height: 100%;
@@ -10,17 +13,17 @@
 	background-color: rgba(0,0,0,0.6);
 }
 #label{
-	padding-top: 80px;
-	padding-left: 60px;
+	padding-top: 40px;
+	padding-left: 80px;
 	color: white;
 	font-size: 20px;
 }
 input{
-	height: 35px;
-	font-size: 22px;
-	width: 500px;
+	height: 30px;
+	font-size: 20px;
+	width: 550px;
 	padding-left: 10px;
-	margin: 10px;
+	margin: 5px;
 	margin-left: 80px;
 	background-color: rgba(20,40,100,0.6);
 	color: white;
@@ -31,11 +34,22 @@ input:hover{
 }
 #textarea{
 	margin-left: 80px;
+	height: 100px;
+	font-size: 20px;
 	background-color: rgba(20,40,100,0.6);
+	width: 540px;
 }
 #map{
-	border:2px solid gray; 
+	border:10px solid gray; 
 	float: right; 
 	margin-right: 70px; 
 	margin-top: 110px;
+}
+#text-time{
+	font-size: 25px;
+	color: rgba(250,50,100,1);
+}
+a{
+	text-decoration: none;
+	color: white;
 }
