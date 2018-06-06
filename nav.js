@@ -18,8 +18,8 @@ function init() {
         }
         function dealMouseS() {
             navSec.style="height:300px";
-            navSec.innerHTML="<ul> <li>Orthopaedics & Joint Replacement</li><li>Blood Bank & Transfusion Medicine</li><li>Paediatrics & Neonatology</li><li>Dentistry & Maxillo Facial Surgery</li>" +
-                "<li>Dermatology</li><li>Emergency & Critical Care</li><li>Ent & Head Neck Surgery</li><li>Radiology & Interventional Radiology</li><li>Urology & Nephrology</li><li>Laboratories</li></ul>";
+            navSec.innerHTML="<ul> <a href='Orthopaedics.html'><li>Orthopaedics & Joint Replacement</li></a><a href='Blood_Bank.html'><li>Blood Bank & Transfusion Medicine</li></a><a href='Paediatrics_Neonatology.html'><li>Paediatrics & Neonatology</li></a><a href='Dentistry.html'><li>Dentistry & Maxillo Facial Surgery</li></a>" +
+                "<a href='Dermatology.html'><li>Dermatology</li></a><a href='Emergency_Critical_Care.html'><li>Emergency & Critical Care</li></a><a href='ent_neck.html'><li>Ent & Head Neck Surgery</li></a><a href='Radiology.html'><li>Radiology & Interventional Radiology</li></a><a href='Urology_Nephrology.html'><li>Urology & Nephrology</li></a><a href='Laboratory.html'><li>Laboratories</li></a></ul>";
         }
 
     document.querySelector("body").addEventListener("click",dealMouseBody);
