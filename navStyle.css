@@ -66,6 +66,7 @@ section{
     cursor: pointer;
     display: inline-block;
     transform: scale(1);
+    color: black;
 
 }
 #navSec li:hover{
