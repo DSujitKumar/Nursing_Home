@@ -21,14 +21,14 @@ function init(){
       heading:"Orthopaedics"
   };
   objects[2]= {
-      img:"https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&h=350",
-      text:"cry",
-      heading:"lots of cry"
+      img:"../images/EmergencyandCritical Care.jpg",
+      text:"and critical care",
+      heading:"Emergency"
   };
   objects[3]= {
-      img:"https://png.pngtree.com/thumb_back/fw800/back_pic/03/54/21/275799b69b9ed48.jpg",
-      text:"mountains :3",
-      heading:"Best"
+      img:"../images/Clinical-laboratory-workers.jpg",
+      text:"services",
+      heading:"laboratory"
   };
   sliderImg.src=""+objects[0].img;
       sliderHead.innerHTML =""+objects[0].heading;
@@ -37,7 +37,7 @@ function init(){
    function slideInterval(){
      
      //slider timer in ms
-    interval = setInterval(slide,12000);
+    interval = setInterval(slide,7000);
      
   }
   function slide(){
