@@ -13,8 +13,8 @@ body,html{
 }
 #imgText{
   color:white;
-  font-family: helvetica;
-  width:150px;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  width:200px;
   height:100px;
   background-color:rgba(1,1,1,0.6);
   display:inline-block;

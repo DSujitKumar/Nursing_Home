@@ -11,14 +11,14 @@ function init(){
 
  //Image Object with src and other attributes
    objects[0]= {
-      img:"https://images.unsplash.com/photo-1494249465471-5655b7878482?ixlib=rb-0.3.5&s=997116405ede44d63ddc54f16e2db8ce&w=1000&q=80",
-      text:"hello",
-      heading:"hi"
+      img:"../images/cardiology_review.jpg",
+      text:" ",
+      heading:"Cardiology"
   };
   objects[1]= {
-      img:"https://images7.alphacoders.com/411/thumb-1920-411820.jpg",
-      text:"lough",
-      heading:"lol"
+      img:"../images/orthopaedics.jpeg",
+      text:" ",
+      heading:"Orthopaedics"
   };
   objects[2]= {
       img:"https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&h=350",
