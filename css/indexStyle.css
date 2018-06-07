@@ -39,3 +39,49 @@ h3{
     font-family: Roboto, Helvetica Neue, sans-serif;
     font-weight: bolder;
 }
+#mainnews{
+    height: 500px;
+    width: 100%;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#news{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(33,82,240);
+background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(66,101,252,0.2553396358543417) 48%, rgba(52,157,252,0.7679446778711485) 100%);
+}
+#news h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #444;
+    text-shadow: 4px 2px 5px white;
+}
+#news-content{
+    float: left;
+    height: 300px;
+    width: 18%;
+    border: 5px solid #444444;
+    margin-left: 5%;
+    position: sticky;
+    
+    overflow: hidden;
+
+}
+#news-content p{
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    }
+#news-content:hover{
+    background-color: #444;
+    transition: all .5s ease;
+    transform: scale(1.08);
+    color: white;
+}
+
