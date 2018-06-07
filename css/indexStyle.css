@@ -61,7 +61,7 @@ background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(
     color: #444;
     text-shadow: 4px 2px 5px white;
 }
-#news-content{
+.news-content{
     float: left;
     height: 300px;
     width: 18%;
@@ -69,13 +69,13 @@ background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(
     margin-left: 5%;
 
 }
-#news-content p{
+.news-content p{
     padding: 10px;
     padding-left: 20px;
     font-weight: bold;
     font-size: 20px;
     }
-#news-content:hover{
+.news-content:hover{
     background-color: #444;
     transition: all .5s ease-in-out;
     transform: scale(1.08);
