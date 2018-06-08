@@ -51,9 +51,13 @@ background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(
     flex-direction: column;
     flex-wrap: wrap;
     height: 400px;
+    background: rgb(33,82,240);
+background: linear-gradient(303deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(66,101,252,0.2553396358543417) 48%, rgba(52,157,252,0.7679446778711485) 100%);
 }
+
 #cr1{
     background-image: url("../images/pr1.jpeg");
+    margin-left: 20px;
 
 }
 #cr2{
@@ -70,10 +74,11 @@ background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(
 
 .cr{
     width: 300px;
-    height: 400px;
+    height: 300px;
+    margin-top:50px; 
 }
 .cr p{
-    margin-top: 50%;
+    margin-top: 40%;
 }
 .crText{
     display:inline-block;
@@ -128,5 +133,12 @@ footer{
     color: #ec3414;
 }
 
-
+/*========About Hospital ++++++++++++++++*/
+#About_Hospital{
+   max-height:400px;
+    max-width: 99%; 
+    text-align: justify;
+    padding: 70px;
+}
+/*=========About Hospital ----------------*/
 
