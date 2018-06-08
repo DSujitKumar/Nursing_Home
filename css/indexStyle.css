@@ -11,12 +11,14 @@ h3{
     background-size: cover;
     background-attachment: fixed;
 }
+article{
+    background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(66,101,252,0.2553396358543417) 48%, rgba(52,157,252,0.7679446778711485) 100%);
+
+}
 #news{
     height: 500px;
     width: 100%;
     overflow: hidden;
-    background: rgb(33,82,240);
-background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(66,101,252,0.2553396358543417) 48%, rgba(52,157,252,0.7679446778711485) 100%);
 }
 #news h1{
     margin: 0;
@@ -51,8 +53,6 @@ background: linear-gradient(191deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(
     flex-direction: column;
     flex-wrap: wrap;
     height: 400px;
-    background: rgb(33,82,240);
-background: linear-gradient(303deg, rgba(33,82,240,0.6418942577030813) 0%, rgba(66,101,252,0.2553396358543417) 48%, rgba(52,157,252,0.7679446778711485) 100%);
 }
 
 #cr1{
