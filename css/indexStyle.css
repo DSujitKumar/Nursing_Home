@@ -134,6 +134,12 @@ footer{
 }
 footer li img{
     margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+footer li img:hover{
+    background-color:#ec3414;
 }
 
 /*========About Hospital ++++++++++++++++*/
