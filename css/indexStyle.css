@@ -132,6 +132,9 @@ footer{
 .footerLi:hover{
     color: #ec3414;
 }
+footer li img{
+    margin: 5px;
+}
 
 /*========About Hospital ++++++++++++++++*/
 #About_Hospital{
