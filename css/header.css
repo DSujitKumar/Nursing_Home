@@ -20,7 +20,7 @@
 
 
 		}
-		#social:hover{
+		.social:hover{
 			cursor: pointer;
 			background-color: #3361f9;
 		}
